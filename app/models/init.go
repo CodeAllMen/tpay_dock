@@ -90,8 +90,10 @@ func createTable(models ...BaseModel) {
 
 func CreateTable() {
 
-	user := new(UserModel)
-	createTable(user)
+	// user := new(UserModel)
+	// createTable(user)
+	testModel := new(TestModel)
+	createTable(testModel)
 
 }
 
